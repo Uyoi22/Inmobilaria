@@ -1,0 +1,46 @@
+ Supuestos Generales
+
+1. **Requisitos y Alcance**:
+    - Requisitos funcionales y no funcionales claramente definidos.
+    - Alcance del proyecto acordado y gestionado.
+
+ Supuestos Técnicos
+
+2. **Tecnologías Adecuadas**:
+    - Uso de tecnologías y frameworks adecuados (Java para backend, JavaScript para frontend, HTML/CSS para diseño).
+
+3. **Integraciones de Pago y Moneda**:
+    - Soporte para transacciones en euros, dólares y pesos.
+
+ Supuestos de Comunicación y Colaboración
+
+4. **Plan de Comunicación**:
+    - Plan de comunicación claro y herramientas de colaboración disponibles.
+
+ Supuestos de Gestión de Proyectos
+
+5. **Cronograma y Presupuesto**:
+    - Cronograma realista y definido para completar el proyecto en 7 días.
+    - Presupuesto adecuado para cubrir todos los aspectos del proyecto.
+
+ Supuestos de Usuarios
+
+6. **Usuarios Finales**:
+    - Identificación y consideración de las necesidades y expectativas de los usuarios finales.
+
+ Supuestos Específicos del Proyecto
+
+7. **Registro y Trazabilidad**:
+    - Sistemas de registro y trazabilidad funcionales para inmuebles y transacciones.
+
+8. **Cálculo de Impuestos y Multas**:
+    - Reglas de cálculo definidas para impuestos, costos de ventas y multas.
+
+9. **Diseño de Interfaz**:
+    - Diseño moderno y atractivo del sistema.
+
+ Supuestos de Informes
+
+10. **Generación de Informes**:
+    - Sistemas funcionales para la generación de informes detallados.
+
