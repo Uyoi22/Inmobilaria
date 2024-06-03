@@ -1,0 +1,489 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.destacadas, .testimonios {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destacadas h2, .testimonios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}  
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para la sección de subastas */
+.auctions {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.properties {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.auctions h1, .properties h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auction-list, .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.auction-card, .property-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dest-card{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auction-card img, .property-card img, .dest-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.auction-card h3, .property-card h3, .dest-card h3{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.auction-card p, .property-card p, .dest-card p {
+    color: black;
+}
+
+.auction-card button, .property-card button, .dest-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.auction-card button:hover, .property-card button:hover, .dest-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.service-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info, .contact-form {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .contact-form label {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de cuenta */
+.account {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.account h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.account-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.account-info, .user-properties {
+    width: 45%;
+}
+
+.account-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-info label {
+    margin-bottom: 5px;
+}
+
+.account-info input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.account-info button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-info button:hover {
+    background-color: #0056b3;
+}
+
+.user-properties .property-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.property-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.property-details {
+    padding: 10px;
+}
+
+.property-details h3 {
+    margin: 0 0 10px 0;
+}
+
+.property-details p {
+    color: #555;
+}
+
+.property-details button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.property-details button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de registro */
+.registration {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.registration h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.registration-info,
+.exposure-info {
+    width: 45%;
+}
+
+.registration-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-info label {
+    margin-bottom: 5px;
+}
+
+.registration-info input,
+.registration-info select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-info button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-info button:hover {
+    background-color: #0056b3;
+}
+
+.exposure-info {
+    padding: 10px;
+}
+
+.exposure-info ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-content .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Agregar estilos específicos para la página de recaudación */
+
+.recaudacion {
+    padding: 20px;
+}
+
+.recaudacion-comisiones,
+.recaudacion-impuestos {
+    margin-bottom: 20px;
+}
+
+.recaudacion-impuestos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recaudacion-impuestos th, 
+.recaudacion-impuestos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.recaudacion-impuestos th {
+    background-color: #f2f2f2;
+}

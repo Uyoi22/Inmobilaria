@@ -1,0 +1,10 @@
+com\inmobiliaria\servlet\GetFamososServlet.class
+com\inmobiliaria\servlet\GetInventarioServlet.class
+com\inmobiliaria\servlet\EndAuctionServlet.class
+com\inmobiliaria\model\Property.class
+com\inmobiliaria\servlet\AuctionBidServlet.class
+com\inmobiliaria\servlet\PropertyRegistrationServlet.class
+com\inmobiliaria\servlet\GetTransactionsServlet.class
+model\Conexion.class
+com\inmobiliaria\servlet\PropertyListServlet.class
+com\inmobiliaria\servlet\PropertyUpdateServlet.class
